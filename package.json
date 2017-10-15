@@ -10,6 +10,9 @@
     "express": "*",
     "pug": "^2.0.0-rc.4"
   },
+  "scripts":{
+    "start":"node app.js"
+  },
   "author": "Gulshair Malik",
   "license": "ISC"
 }
