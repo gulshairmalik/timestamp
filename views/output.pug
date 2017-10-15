@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        title TimeStamp
+        link(href='/css/bootstrap.min.css', rel='stylesheet')
+    body
+        .container
+            .jumbotron
+                h1.text-center.text-primary TimeStamp Service
+            h2.text-primary Output:
+            p(style="font-size:18px") <code>{"unix":#{res.unix},"natural":"#{res.natural}"}</code>
+            
